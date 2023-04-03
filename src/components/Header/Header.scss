@@ -1,0 +1,13 @@
+@import '../../Assets/sass/general.scss';
+
+.section-header{
+
+    .header__top{
+        padding: 8px 0;
+
+        .MuiFormControl-root{
+            width: 70px;
+            border: none;
+        }
+    }
+}
