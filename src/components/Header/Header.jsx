@@ -1,8 +1,14 @@
 import React from 'react'
+import './Header.scss'
+import HeaderTop from '../HeaderTop/HeaderTop'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className='section-header'>
+        <div className="container">
+            <HeaderTop/>
+        </div>
+    </div>
   )
 }
 
